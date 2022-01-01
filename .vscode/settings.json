@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "9. Recursion on the way up",
         "8. Recursion in Arraylist",
         "7. Recursion in arrays",
         "6. Introduction to recursion",
@@ -8,6 +9,6 @@
         "3. Functions_and_Arrays",
         "2. Patterns",
         "1. Getting Started",
-        "9. Recursion on the way up"
+        "10. Recursion Backtracking"
     ]
 }
