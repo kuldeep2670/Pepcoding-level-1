@@ -1,15 +1,16 @@
 {
     "java.project.sourcePaths": [
-        "9. Recursion on the way up",
-        "8. Recursion in Arraylist",
-        "7. Recursion in arrays",
-        "6. Introduction to recursion",
-        "5. String, String Builder and ArrayList",
-        "4. Two dimensional array",
-        "3. Functions_and_Arrays",
-        "2. Patterns",
-        "10. Recursion Backtracking",
-        "1. Getting Started",
-        "11. Linked List"
+        "9_Recursion_on_the_way_up",
+        "8_Recursion_in_Arraylist",
+        "7_Recursion_in_arrays",
+        "6_Introduction_to_recursion",
+        "5_String_String_Builder_and_ArrayList",
+        "4_Two dimensional array",
+        "3_Functions_and_Arrays",
+        "2_Patterns",
+        "1_Getting Started",
+        "11_Linked_List",
+        "10_Recursion_Backtracking",
+        "12_DP"
     ]
 }
