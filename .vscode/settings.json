@@ -9,9 +9,10 @@
         "3_Functions_and_Arrays",
         "2_Patterns",
         "1_Getting Started",
+        "14_Time_and_Space_Complexity",
+        "13_Hashmap_andHeap",
         "12_DP",
         "11_Linked_List",
-        "10_Recursion_Backtracking",
-        "13_Hashmap_andHeap"
+        "10_Recursion_Backtracking"
     ]
 }
