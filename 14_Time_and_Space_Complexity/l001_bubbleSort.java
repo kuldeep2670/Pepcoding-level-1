@@ -1,13 +1,13 @@
 import java.util.*;
 
 public class l001_bubbleSort {
-  
+
   public static void bubbleSort(int[] arr) {
     int n = arr.length;
-    for(int x = 1; x <= n - 1; x++){
-      for(int i = 0; i <= n - x - 1; i++){
-        if(isSmaller(arr, i+1, i) == true){
-          swap(arr, i+1, i);
+    for (int x = 1; x <= n - 1; x++) {
+      for (int i = 0; i <= n - x - 1; i++) {
+        if (isSmaller(arr, i + 1, i) == true) {
+          swap(arr, i + 1, i);
         }
       }
     }
