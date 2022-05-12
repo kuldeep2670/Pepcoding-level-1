@@ -1,18 +1,18 @@
 {
     "java.project.sourcePaths": [
-        "9_Recursion_on_the_way_up",
-        "8_Recursion_in_Arraylist",
-        "7_Recursion_in_arrays",
-        "6_Introduction_to_recursion",
-        "5_String_String_Builder_and_ArrayList",
-        "4_Two dimensional array",
-        "3_Functions_and_Arrays",
-        "2_Patterns",
-        "1_Getting Started",
-        "14_Time_and_Space_Complexity",
-        "13_Hashmap_andHeap",
-        "12_DP",
-        "11_Linked_List",
-        "10_Recursion_Backtracking"
+        "13. Hashmap_andHeap",
+        "12. DP",
+        "11. Linked_List",
+        "10. Recursion_Backtracking",
+        "09. Recursion_on_the_way_up",
+        "08. Recursion_in_Arraylist",
+        "07. Recursion_in_arrays",
+        "06. Introduction_to_recursion",
+        "05. String_String_Builder_and_ArrayList",
+        "04. Two dimensional array",
+        "03. Functions_and_Arrays",
+        "02. Patterns",
+        "01. Getting Started",
+        "14. Time_and_Space_Complexity"
     ]
 }
