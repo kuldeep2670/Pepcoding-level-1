@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "14. Time_and_Space_Complexity",
         "13. Hashmap_andHeap",
         "12. DP",
         "11. Linked_List",
@@ -13,6 +14,6 @@
         "03. Functions_and_Arrays",
         "02. Patterns",
         "01. Getting Started",
-        "14. Time_and_Space_Complexity"
+        "15. Stacks and Queues"
     ]
 }
