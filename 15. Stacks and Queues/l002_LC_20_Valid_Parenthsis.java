@@ -23,5 +23,9 @@ public class l002_LC_20_Valid_Parenthsis {
             }
         }
         return st.size() == 0;
+        // if(st.size() == 0)
+        //     return true;
+        // else
+        //     return false;
     }
 }
