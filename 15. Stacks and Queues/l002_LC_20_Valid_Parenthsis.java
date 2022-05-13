@@ -9,7 +9,7 @@ public class l002_LC_20_Valid_Parenthsis {
                 st.push(ch);
             }
             else{
-                if(st.size() == 0)
+                if(st.size() == 0)   //for if only closing brackets are there
                     return false;
                 if(ch == '}' && st.peek() !='{')
                     return false;
