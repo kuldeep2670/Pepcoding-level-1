@@ -165,7 +165,7 @@ public class l011_writeHashmap {
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    HashMap<String, Integer> map = new HashMap();
+    HashMap<String, Integer> map = new HashMap<>();
 
     String str = br.readLine();
     while (str.equals("quit") == false) {
