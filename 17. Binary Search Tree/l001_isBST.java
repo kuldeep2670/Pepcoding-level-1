@@ -115,7 +115,7 @@ public class l001_isBST {
 
         pairBST myPair = new pairBST();
 
-        myPair.isBST = leftAns.isBST && rightAns.isBST && leftAns.max < root.data && root.data < rightAns.min;
+        myPair.isBST = (leftAns.isBST == true) && rightAns.isBST && leftAns.max < root.data && root.data < rightAns.min;
 
         myPair.min = Math.min(root.data, leftAns.min);
         myPair.max = Math.max(root.data, rightAns.max);
