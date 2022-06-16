@@ -93,7 +93,7 @@ public class l015_levelorder_Traversal {
                 qu.add(null);
                 System.out.println();
             } else {
-                System.out.print(rem.val + " ");  
+                System.out.print(rem.val + " ");
 
                 // 3. Add all child If possible
                 if (rem.left != null) {
@@ -131,6 +131,43 @@ public class l015_levelorder_Traversal {
             }
             System.out.println();
 
+        }
+    }
+
+    public static void printSpiralUsingOneStack(Node root) {
+        if (root == null)
+            return;
+
+        Stack<Integer> s = new Stack<Integer>();
+        Queue<Node> q = new LinkedList<Node>();
+
+        boolean reverse = true;
+        q.add(root);
+        while (!q.isEmpty()) {
+            int size = q.size();
+            while (size > 0) {
+                Node p = q.remove();
+                
+                if (reverse)
+                    s.add(p.val);
+                else
+                    System.out.print(p.val + " ");
+
+                if (p.left != null)
+                    q.add(p.left);
+                if (p.right != null)
+                    q.add(p.right);
+                size--;
+            }
+
+            
+            if (reverse) {
+                while (!s.empty()) {
+                    System.out.print(s.pop() + " ");
+                    
+                }
+            }
+            reverse = !reverse;
         }
     }
 
