@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class l001_Construction_Size_of_Generic_Tree {
+public class l001_Construction_SizeMaxHeight_of_Generic_Tree {
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
@@ -39,19 +39,46 @@ public class l001_Construction_Size_of_Generic_Tree {
             display(child);
         }
     }
-    public static int size(Node root){
-        int s =0;
-        for(Node child : root.children){
+
+    public static int size(Node root) {
+        int s = 0;
+        for (Node child : root.children) {
             s += size(child);
         }
-        return s+1;
+        return s + 1;
+    }
+
+    public static int max(Node node) {
+        int m = Integer.MIN_VALUE;
+        for (Node child : node.children) {
+            int cm = max(child);
+            if (cm > m) {
+                m = cm;
+            }
+        }
+        if (node.data > m) {
+            m = node.data;
+        }
+        return m;
+    }
+
+    public static int height(Node node) {
+        int h = -1;
+        for(Node child : node.children){
+            int ch = height(child);
+            h = Math.max(ch, h);
+        }
+        h += 1;
+        return h;
     }
 
     public static void main(String[] args) {
         int[] arr = { 10, 20, 50, -1, 60, -1, -1, 30, 70, 110, -1, 120, -1, -1, 80, -1, 90, -1, -1, 40, 100, -1, -1,
                 -1 };
         Node root = contruction(arr);
-        //display(root);
-        System.out.println(size(root));
+        // display(root);
+        // System.out.println(size(root));
+        int h = height(root);
+        System.out.println(h);
     }
 }
