@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "EXTRA",
+        "17. Binary Search Tree",
         "16. Binary Tree",
         "15. Stacks and Queues",
         "14. Time_and_Space_Complexity",
@@ -17,6 +18,6 @@
         "03. Functions_and_Arrays",
         "02. Patterns",
         "01. Getting Started",
-        "17. Binary Search Tree"
+        "18. Generic Tree"
     ]
 }
