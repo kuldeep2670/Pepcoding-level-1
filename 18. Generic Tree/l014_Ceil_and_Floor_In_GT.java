@@ -54,7 +54,7 @@ public class l014_Ceil_and_Floor_In_GT {
         if(node.data > data){
             ceil = Math.min(node.data, ceil);
         }
-
+        //travel
         for(Node child : node.children){
             ceilAndFloor(child, data);
         }
