@@ -15,24 +15,53 @@ public class CellPhone {
     public String model;
     private String colour;
     private String processor;
-    public void setModel(String model){
-        String ValidModel = model.toLowerCase();
-        if(ValidModel.equals("nord")|| ValidModel.equals("7pro")){
-            this.model = model;
-        }
-        else{
-            this.model = "unknown";
-        }
+    
+    public int getRam() {
+        return Ram;
     }
-    public String getModel(){
-        return this.model;
+
+    public void setRam(int ram) {
+        Ram = ram;
     }
+
+    public int getNoOfCam() {
+        return NoOfCam;
+    }
+
+    public void setNoOfCam(int noOfCam) {
+        NoOfCam = noOfCam;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+
+    public String getProcessor() {
+        return processor;
+    }
+
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
     public static void main(String[] args) {
         CellPhone apple = new CellPhone();
-        CellPhone onePlus = new CellPhone();
+        //CellPhone onePlus = new CellPhone();
         // apple.model = "iphone13";
-        onePlus.setModel("Nor");
-        System.out.println("The phone model is " + onePlus.getModel());
+        apple.setColour("red");
+        
         
     }
 }
