@@ -17,12 +17,28 @@ public class car extends automobile{
         this.batterySize = batterySize;
         this.headLamps = headLamps;
         this.groundClearance = groundClearance;
+    } 
+
+    @Override
+    public void movement(){
+        System.out.println("car.movement() was called");
+        super.movement();
     }
+
+    public void carSpeed(int speed){
+        super.speed(speed);
+    }
+
     public static void main(String[] args){
         automobile auto = new automobile(200,"land rover", "2018", 2000000, 10);
 
         car Car = new car(150, "audi","2019",2000000, 10,"yes","yes", "100kw", "yes","20cm");
         auto.movement();
         Car.movement();
+
+        auto.speed(16);
+        Car.carSpeed(61);
+
+        
     }
 }
