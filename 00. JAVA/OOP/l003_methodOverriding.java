@@ -4,26 +4,26 @@
 // of "Run time polymorphism".
 
 
-package OOP;
-public class l003_methodOverriding {
-    public static void add(int a, int b){
-        int sum = a+b;
-        System.out.println("Parent class method sum: " + sum);
-    }
-    public static void main(String[] args) {
-        l003_methodOverriding tt = new l003_methodOverriding();
-        test1 tt1 = new test1();
-        tt.add(5,10);
-        tt1.add(10,20);
-    }
+// package OOP;
+// public class l003_methodOverriding {
+//     public static void add(int a, int b){
+//         int sum = a+b;
+//         System.out.println("Parent class method sum: " + sum);
+//     }
+//     public static void main(String[] args) {
+//         l003_methodOverriding tt = new l003_methodOverriding();
+//         test1 tt1 = new test1();
+//         tt.add(5,10);
+//         tt1.add(10,20);
+//     }
     
-}
-public class test1 extends l003_methodOverriding{
-    public static void add(int a, int b) {
-        int sum = a+b;
-        System.out.println("child class method sum: " + sum);
-    }
-}
+// }
+// public class test1 extends l003_methodOverriding{
+//     public static void add(int a, int b) {
+//         int sum = a+b;
+//         System.out.println("child class method sum: " + sum);
+//     }
+// }
 
 
 // pointers for method overriding
