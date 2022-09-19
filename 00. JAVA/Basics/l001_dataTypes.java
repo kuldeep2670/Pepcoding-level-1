@@ -1,3 +1,4 @@
+package Basics;
 public class l001_dataTypes{
     public static void main(String[] args){
         //Integer

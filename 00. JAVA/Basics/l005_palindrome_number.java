@@ -1,3 +1,4 @@
+package Basics;
 import java.util.Scanner;
 public class l005_palindrome_number {
     public static boolean isPalindrome (int number)

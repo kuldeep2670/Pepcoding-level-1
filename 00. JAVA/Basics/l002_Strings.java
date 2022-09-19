@@ -1,3 +1,4 @@
+package Basics;
 public class l002_Strings {
     public static void main(String[] args){
 

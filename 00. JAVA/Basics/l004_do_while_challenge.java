@@ -1,3 +1,4 @@
+package Basics;
 public class l004_do_while_challenge {
     public static void main(String[] args){
         int n= 12345;

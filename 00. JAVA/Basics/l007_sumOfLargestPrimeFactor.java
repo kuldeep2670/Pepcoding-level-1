@@ -1,3 +1,4 @@
+package Basics;
 public class l007_sumOfLargestPrimeFactor {
     public static int sumOfLargestPrimeFactor (int num)
     {
