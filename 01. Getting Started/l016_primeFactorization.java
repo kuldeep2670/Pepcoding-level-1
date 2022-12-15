@@ -10,6 +10,7 @@ public class l016_primeFactorization {
            while(number%i == 0) {
               System.out.print(i+" ");
               number = number/i;
+            //   System.out.println(number);
            }
         }
         if(number != 1) {

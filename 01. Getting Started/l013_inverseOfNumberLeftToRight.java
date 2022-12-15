@@ -9,15 +9,15 @@ public class l013_inverseOfNumberLeftToRight {
         return count;
     }
     public static void inverseNumber(int num){
-        int totalDigit = countDigits(num);
-        int lastIndex = totalDigit, res = 0;
-        while (num != 0) {
+        int len = countDigits(num);
+        int lastIndex = len, res = 0;
+        while(num != 0){
             int lastDigit = num % 10;
-            num /= 10;
+            num = num / 10;
 
-            res += lastIndex * (int) Math.pow(10, totalDigit - lastDigit);
+            res = res + (lastIndex * (int)Math.pow(10, len - lastDigit));
             lastIndex--;
-        }  
+        }
         System.out.println(res);
     }
     public static void main(String[] args){
