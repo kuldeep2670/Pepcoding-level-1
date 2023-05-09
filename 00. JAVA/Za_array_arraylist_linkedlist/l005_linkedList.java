@@ -3,7 +3,7 @@ package Za_array_arraylist_linkedlist;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
-public class l005_linkedlist {
+public class l005_linkedList {
     public static void main(String[] args) {
         LinkedList<String> engAlpha = new LinkedList<>();
         // engAlpha.add("apple");
